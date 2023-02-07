@@ -1,6 +1,6 @@
 setTimeout(function(){
 // API endpoint to retrieve list of images in a repository
-const apiUrl = "/CatApi/CatImages";
+const apiUrl = "https://api.github.com/repos/zShadowSkilled1/CodedAPI/contents/CatApi/Images";
 
 // Reference to the image element in the HTML
 const imgElement = document.getElementById("random-image");
